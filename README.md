@@ -32,16 +32,17 @@
    pip install -r requirements.txt
    ```
 
-4. **Скопируйте файл `.env.example` и переименуйте его в `.env`..**:
+4. Скопируйте файл `.env.example` и переименуйте его в `.env`.:
    ```env
-   DB_ENGINE=django.db.backends.postgresql
-   DB_NAME=checkpoint
-   DB_USER=guard
-   DB_PASSWORD=osim5
-   DB_HOST=checkpoint.devman.org
-   DB_PORT=5434
-   SECRET_KEY=your-secret-key
-   DEBUG=True  # Или False
+	ALLOWED_HOSTS=127.0.0.1,localhost,yourdomain.com
+	DEBUG=False  # Или False
+	DB_ENGINE=django.db.backends.postgresql
+	DB_HOST=your_database_host
+	DB_PORT=your_database_port
+	DB_NAME=your_database_name
+	DB_USER=your_database_user
+	DB_PASSWORD=your_database_password
+	SECRET_KEY=your_secret_key
    ```
 
 5. **Запустите сервер**:
