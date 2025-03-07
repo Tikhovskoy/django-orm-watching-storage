@@ -32,7 +32,7 @@
    pip install -r requirements.txt
    ```
 
-4. **Создайте файл `.env` и укажите в нём переменные окружения**:
+4. **Скопируйте файл `.env.example` и переименуйте его в `.env`..**:
    ```env
    DB_ENGINE=django.db.backends.postgresql
    DB_NAME=checkpoint
