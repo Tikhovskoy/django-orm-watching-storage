@@ -10,4 +10,5 @@ Thumbs.db
 venv/
 migrations/
 db.sqlite3
+.env.example
 
